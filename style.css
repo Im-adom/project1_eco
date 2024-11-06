@@ -1,0 +1,89 @@
+:root{
+    --green: #2CC295;
+    --black: #000000;
+    --white: #FFFFFF;
+    --grey: #E6E6E6;
+}
+
+.wrapper{
+    background: 
+        linear-gradient(0deg, rgba(44, 194, 149, 0.94) 14.5%, rgba(45, 194, 150, 0.94) 36%, rgba(255, 255, 255, 0.94) 100%),
+        url(images_f/backgroundimage.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.firstpagelogo{
+    width: 114px;
+    height: 143px;
+    top: 209px;
+    left: 130px;
+    box-align: center;
+    display: flex;
+
+}
+.firsttext{
+    width: 315px;
+    height: 177px;
+    top: 372px;
+    left: 23px;
+    font: Montserrat;
+    font-weight: 900;
+    size: 48px;
+    line-height: 58.51px;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+.top-frame{
+    display: flex;
+    justify-content: space-between;
+}
+.top-right{
+    font: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    align: center;
+
+}
+
+.imgcont{
+    width: 312px;
+    height: 389px; 
+    top: 177px;
+    left: 19px;
+
+}
+
+.imagesonslides1{
+    width: 300px;
+    height: 205px;
+    left: 12px;
+}
+
+.imagesonslides2{
+    width: 266px;
+    height: 232px;
+    left: 35px;
+}
+
+.imagesonslides3{
+    width: 303px;
+    height: 243px;
+    left: 26px;
+}
+
+.slidenumber{
+    font: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.94px;
+    width: 28px;
+    height: 22px;
+    top: 259px;
+    left: 148px;
+}
